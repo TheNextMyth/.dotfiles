@@ -47,11 +47,11 @@
         "on-click": "activate",
         "active-only": false,
         "all-outputs": true,
-        "format": "{name}: {icon}",
+        "format": "{name}:{icon}",
         "format-icons": {
 			"urgent": "",
-			"active": "",
-			"default": ""
+			"active": "●",
+			"default": "○"
         },
         "persistent-workspaces": {
              "*": 3
