@@ -1,0 +1,13 @@
+[commands]
+reboot = [ "systemctl", "reboot" ]
+poweroff = [ "systemctl", "poweroff" ]
+
+[background]
+path = "/usr/share/backgrounds/greeter.jpg"
+fit = "Contain"
+
+[appearance]
+greeting_msg = "Hello!"
+
+[GTK]
+theme_name = "Adwaita"
